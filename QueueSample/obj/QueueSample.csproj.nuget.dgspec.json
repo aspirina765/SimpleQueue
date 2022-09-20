@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rhel9dev/ZIGGIE/EnviozBroker/QueueSample/QueueSample/QueueSample.csproj": {}
+  },
+  "projects": {
+    "/home/rhel9dev/ZIGGIE/EnviozBroker/QueueSample/QueueSample/QueueSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rhel9dev/ZIGGIE/EnviozBroker/QueueSample/QueueSample/QueueSample.csproj",
+        "projectName": "QueueSample",
+        "projectPath": "/home/rhel9dev/ZIGGIE/EnviozBroker/QueueSample/QueueSample/QueueSample.csproj",
+        "packagesPath": "/home/rhel9dev/.nuget/packages/",
+        "outputPath": "/home/rhel9dev/ZIGGIE/EnviozBroker/QueueSample/QueueSample/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rhel9dev/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.109/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
